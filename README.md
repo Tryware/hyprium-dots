@@ -4,3 +4,11 @@
 
 # Programs needed
 >*zsh + oh-my-zsh, hyprland, yofi (avaliable from source), cava (optional), waybar, alacritty, nnn (optional)*
+
+# Themes needed
+>I use Catppuccin-Macchiato as icon theme;
+>JetBrains Mono Medium for Yofi;
+>UbuntuMono for Alacritty;
+>FontAwesome for Waybar;
+>BreezeX-black as cursor
+>Tokyonight-Dark-BL as gtk-theme
