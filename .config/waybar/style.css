@@ -1,0 +1,55 @@
+* {
+    border: none;
+    border-radius: 2px;
+    font-family: FontAwesome;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+  background: rgba(7, 16, 38, 0.9);
+  color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  margin: 13px 13px;
+}
+
+tooltip {
+	background: rgba(0, 0, 34, 1);
+	border-radius: 15px;
+	color: #e3cab6;
+	border-width: 1px;
+	margin: 15px 15px;
+	border-color: #4e67c7;
+	}
+
+
+#custom-date, #clock,  #memory, #cpu, #disk, #user, #language, #temperature {
+	background-color: transparent;
+	padding: 5px 10px;
+	margin: 10px 0px;
+}
+
+
+#custom-date {
+	color: #9ec3c4;
+}
+
+#user, #language, #clock {
+	color:#FED1DF;
+}
+
+#clock {
+    margin-right: 15px;
+}
+
+#cpu, #disk, #memory, #temperature  {
+    color: #7F8FCB;
+}
+
+#disk {
+    margin-left: 15px;
+}
+
+#workspaces button.active {
+	color:#475DB2;	
+}
