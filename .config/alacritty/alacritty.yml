@@ -165,9 +165,9 @@ colors:
     red: '#E79BB7'
     green: '#475DB2'
     yellow: '#d1bcab'
-    blue: '#1b83b3'
+    blue: '#797bc7'
     magenta: '#B06D9E'
-    cyan: '#7fd0db'
+    cyan: '#7da9db'
     white: '#a5b4cb'
 
 
@@ -176,9 +176,9 @@ colors:
     red:     '#f5a2c0'
     green:   '#4e67c7'
     yellow:  '#e3cab6'
-    blue:    '#2094c9'
+    blue:    '#8183d6'
     magenta: '#ab6a9a'
-    cyan:    '#93f1ff'
+    cyan:    '#93c5ff'
     white:   '#eaeaea'
 
 window: 
