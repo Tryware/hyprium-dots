@@ -14,6 +14,6 @@
 
 >FontAwesome for Waybar;
 
->BreezeX-black as cursor
+>BreezeX-black as cursor;
 
 >Tokyonight-Dark-BL as gtk-theme
