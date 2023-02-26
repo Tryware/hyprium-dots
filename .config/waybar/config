@@ -1,0 +1,77 @@
+{
+    "position": "top", 
+     "height": -50,
+    "margin-top": 15,
+    "margin-left": 70,
+    "margin-bottom": 2,
+    "margin-right": 70,
+    "modules-right": ["user", "hyprland/language", "clock"],
+    "modules-center": ["wlr/workspaces"],
+    "modules-left": ["disk", "cpu", "memory", "temperature"],
+    // Modules configuration
+ "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+"user": {
+        "format": "User:  {user} ",
+        "interval": 60,
+        "height": 30,
+        "width": 30,
+        "icon": true,
+},
+	"hyprland/language": {
+	    "format": "Lang: {}",
+	    "format-en": "AMERICA, HELL YEAH!",
+	    "format-tr": "As bayrakları",
+	    "keyboard-name": "at-translated-set-2-keyboard"
+	},
+	
+   "wlr/workspaces": {
+   "disable-scroll": false,
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "all-outputs": true,
+     "on-click": "activate",
+     "format": "{icon}",
+     "format-icons": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": "",
+        "5": "",
+        "active": "",
+        "default": ""
+      }
+    },
+	  "hyprland/window": {
+        "format": "{}"
+    },
+	  "memory": {
+	       "height": -50,
+
+        "interval": 5,
+        "format": " {}%"
+    },
+      "cpu": {
+           "height": -50,
+
+        "interval": 5,
+        "format": " {usage:2}%"
+    },
+        "temperature": {
+        // "thermal-zone": 2,
+        "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+        "critical-threshold": 80,
+        // "format-critical": "{temperatureC}°C {icon}",
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": ["", "", ""]
+    },
+        "disk": {
+        "interval": 5,
+        "format": "\uf1c0 {percentage_used:2}%",
+        "path": "/"
+    },
+}
