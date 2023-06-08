@@ -10,7 +10,8 @@
 * waybar, 
 * alacritty,
 * nnn (optional), 
-* wbg, pipewire + xdg-desktop-portal-hyprland (optional, for screenshare), 
+* wbg, 
+* pipewire + xdg-desktop-portal-hyprland (optional, for screenshare), 
 * polkit-kde-authentication-agent
 
 # Themes needed
